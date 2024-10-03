@@ -1,4 +1,5 @@
 Flight Price Tracker
+
 A Python-based flight price tracking system that allows users to search for flight offers and receive notifications when specific conditions are met (such as a price drop or specific flight availability). This project integrates flight search functionalities with price tracking to notify users of the best deals.
 
 Project Overview
