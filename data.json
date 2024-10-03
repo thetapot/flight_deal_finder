@@ -1,0 +1,1346 @@
+{
+    "meta": {
+        "count": 10,
+        "links": {
+            "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=LON&destinationLocationCode=PAR&departureDate=2024-09-22&returnDate=2025-03-20&adults=1&nonStop=true&currencyCode=GBP&max=10"
+        }
+    },
+    "data": [
+        {
+            "type": "flight-offer",
+            "id": "1",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-09-22T19:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T22:05:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8945",
+                            "aircraft": {
+                                "code": "32Q"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T14:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T14:20:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6948",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "5",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "253.58",
+                "base": "192.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "253.58"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "253.58",
+                        "base": "192.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "5",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "2",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-09-22T19:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T22:05:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8945",
+                            "aircraft": {
+                                "code": "32Q"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T18:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T18:15:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6944",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "6",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "253.58",
+                "base": "192.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "253.58"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "253.58",
+                        "base": "192.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "6",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "3",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-09-22T19:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T22:05:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8945",
+                            "aircraft": {
+                                "code": "32Q"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H10M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T12:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T12:15:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6942",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "7",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "253.58",
+                "base": "192.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "253.58"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "253.58",
+                        "base": "192.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "7",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "4",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-09-22T14:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T16:40:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8961",
+                            "aircraft": {
+                                "code": "32Q"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T14:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T14:20:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6948",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "5",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "256.39",
+                "base": "193.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "256.39"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "256.39",
+                        "base": "193.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "2",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "PW2FLX",
+                            "class": "P",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "5",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "5",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-09-22T14:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T16:40:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8961",
+                            "aircraft": {
+                                "code": "32Q"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T18:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T18:15:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6944",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "6",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "256.39",
+                "base": "193.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "256.39"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "256.39",
+                        "base": "193.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "2",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "PW2FLX",
+                            "class": "P",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "6",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "6",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-09-22T14:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T16:40:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8961",
+                            "aircraft": {
+                                "code": "32Q"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H10M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T12:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T12:15:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6942",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "7",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "256.39",
+                "base": "193.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "256.39"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "256.39",
+                        "base": "193.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "2",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "PW2FLX",
+                            "class": "P",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "7",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "7",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H15M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-09-22T13:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T15:30:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8947",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H15M",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T14:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T14:20:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6948",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "5",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "260.58",
+                "base": "199.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "260.58"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "260.58",
+                        "base": "199.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "QRFLX",
+                            "class": "Q",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "5",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "8",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H15M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-09-22T13:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T15:30:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8947",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H15M",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T18:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T18:15:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6944",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "6",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "260.58",
+                "base": "199.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "260.58"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "260.58",
+                        "base": "199.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "QRFLX",
+                            "class": "Q",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "6",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "9",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H15M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-09-22T13:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T15:30:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8947",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H15M",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H10M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T12:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T12:15:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6942",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "7",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "260.58",
+                "base": "199.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "260.58"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "260.58",
+                        "base": "199.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "QRFLX",
+                            "class": "Q",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "7",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "10",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-22",
+            "lastTicketingDateTime": "2024-09-22",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-09-22T07:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-09-22T10:10:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8943",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H25M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT1H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "ORY",
+                                "terminal": "1",
+                                "at": "2025-03-20T14:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2025-03-20T14:20:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6948",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "5",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "GBP",
+                "total": "282.58",
+                "base": "221.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "282.58"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "GBP",
+                        "total": "282.58",
+                        "base": "221.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "4",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ARFLX",
+                            "class": "A",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "5",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORFLX",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dictionaries": {
+        "locations": {
+            "ORY": {
+                "cityCode": "PAR",
+                "countryCode": "FR"
+            },
+            "LHR": {
+                "cityCode": "LON",
+                "countryCode": "GB"
+            },
+            "LGW": {
+                "cityCode": "LON",
+                "countryCode": "GB"
+            }
+        },
+        "aircraft": {
+            "32Q": "AIRBUS A321NEO",
+            "321": "AIRBUS A321"
+        },
+        "currencies": {
+            "GBP": "POUND STERLING"
+        },
+        "carriers": {
+            "VY": "VUELING AIRLINES"
+        }
+    }
+}
